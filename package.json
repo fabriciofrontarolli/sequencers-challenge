@@ -1,0 +1,38 @@
+{
+  "name": "react-sequencers",
+  "version": "1.0.0",
+  "description": "A Sample assignment",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html --port 15000",
+    "prod": "npm run build && pm2 start server.js",
+    "test:backend": "jest /lib/tests",
+    "test:backend-coverage": "jest /lib/tests --coverage",
+    "test:frontend": "jest ./frontend"
+  },
+  "author": "Fabricio C. Frontarolli",
+  "license": "ISC",
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "express": "^4.16.4",
+    "parcel": "^1.11.0",
+    "pm2": "^3.2.4",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-select": "^2.2.0",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.13.1",
+    "sass": "^1.15.3"
+  }
+}

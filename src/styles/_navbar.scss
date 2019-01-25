@@ -1,0 +1,20 @@
+@import 'variables';
+
+.nav-wrapper {
+    background: $navbar_background;
+
+    .brand-logo {
+        position: relative;
+        margin: 0.7% auto;
+        width: 200px;
+        height: 50px;
+    }
+    .project-name {
+        color: $light_white;
+        margin: 0 1%;
+        font-size: 1rem;
+        position: absolute;
+        font-weight: bold;
+        font-style: italic;
+    }
+}
